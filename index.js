@@ -4,10 +4,11 @@ import Hello from './Hello';
 import './style.css';
 
 const Modal = lazy(() => {
-  return new Promise(resolve => setTimeout(resolve, 3 *1000)).then(
+  return new Promise(resolve => setTimeout(resolve, 3 * 1000)).then(
     () => import('./Modal')
   );
 });
+
 const LoadingModal = <div className="modal-loading"> Modal is loading... </div>;
 
 class App extends Component {
