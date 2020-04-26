@@ -1,0 +1,14 @@
+h1, p {
+  font-family: Lato;
+}
+
+.modal, .modal-loading {
+  position: fixed;
+  border: 1px solid hotpink;
+  padding: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: hotpink;
+  color: white;
+}
